@@ -1,0 +1,115 @@
+<!doctype html> 
+<html lang="en"> 
+    
+    <head> 
+        <meta charset="UTF-8" />
+        <title> Winnie The Poo </title>
+    </head>
+    <style type="text/css">
+
+    body {
+            width:100%;
+            margin:0;
+            padding:100;
+            background: url(https://image.noelshack.com/fichiers-md/2018/24/5/1529066832-fondappli.png) no-repeat center fixed; 
+            -webkit-background-size: cover; 
+            background-size: cover; 
+        }
+    
+    #boiteT{
+        margin-left: 500px;
+        
+    }
+
+    #Titre{
+        font-family: 'AR HERMANN';
+        font-size:80px;
+        color: white;
+        margin: 20px 0 30px 550px;
+        
+    }
+
+    #Logo{
+        float: right;
+        margin-block-end: 100px;
+    }
+
+    #boite{
+        margin: 150px 150px 300px 150px; /*  haut droite bas gauche , taille de la boite */
+    } 
+
+    #co2, #decibels{
+            
+        border-style: solid; /* type de bordure du cadre */
+        border-width: 2px; /*epaisseur du cadre */
+        border-color: rgb(103, 103, 158);
+        vertical-align: middle;
+        background-color: black;
+        color: white;
+        opacity: 0.8; /*transparence du cadre */
+        width: 450px;
+        height: 150px;
+        float: left; /*fonction qui aligne directement à gauche et permet d'avoir 2 cadres sur la même ligne */ 
+        margin-block-end: 20px;
+            
+        } 
+    #temp, #coeur{
+            
+        border-style: solid; 
+        border-width: 2px;
+        border-color: rgb(103, 103, 158);
+        vertical-align: middle;
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        width: 450px;
+        height: 150px;
+        float: right;
+        margin-block-end: 20px;
+            
+        } 
+
+
+    #Para{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:25px;
+            margin: 10px 0 0 0; /*  haut droite bas gauche , taille de la boite */
+        }
+    #ValeurConst{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:50px;
+        margin: 35px 0 0 175px; 
+    }
+
+    
+
+    </style>
+    <body>
+            <h1 id="Titre">Ici le titre</h1>
+            <img id = "Logo" src= "https://image.noelshack.com/fichiers-md/2018/24/5/1529076305-kirbylogoappt.png" alt""/>
+        
+        
+        <div id = "boite">
+            <div id="co2">
+                <p id ="Para">Le taux de Co2 dans la pièce est de : </p>
+                <p id="ValeurConst"> 20 %</p> 
+            </div> 
+            <div id = "temp">
+                <p id ="Para">La température de la pièce est de : </p>
+                <p id="ValeurConst"> 20 °C</p>
+            </div>
+            <div id="decibels">
+                    <p id ="Para">La valeur du son dans la pièce est de : </p>
+                    <p id="ValeurConst"> 20dB</p>
+                </div>
+                <div id="coeur">
+                    <p id ="Para">Le rythme cardique est de: </p>
+                    <p id="ValeurConst"> 20 B/s</p> 
+                </div>
+        </div>
+        
+            
+        
+        
+    </body>
+</html>
